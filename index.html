@@ -1,156 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-html,body{margin: 0px;
-padding: 0px;}
-
-#fotodefondo{background-image:  linear-gradient(to bottom right,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),url(ba1.jpg);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-
-}
-
-
-
-
-       #ola {color:white}
-       #imagen{width: 6.25em;}
-       #jer{color: green;}
-       .card-title{color: rgb(247, 205, 205);
-    display:flex;
-justify-content: flex-end;
-align-items: center;}
-.card-text{color: rgb(247, 205, 205);
-    display:flex;
-justify-content: flex-end;
-align-items: center;} 
-.btn.btn-primary{color: rgb(247, 205, 205);
-    display:flex;
-justify-content: flex-end;
-align-items: center;
-margin-left: 1200px;}     
-       .card-img-top{height: 37.5em;}
-       
-#reyelsalvador{
-margin: 1px;
-margin-bottom: 1px;
-margin-top: 1px;
-
-color: white;
-padding-left: 37.5em;
-}
-
-#kill{ 
-color: white;}
-
- #quehay{padding-right: 8.5em;
-;
-float:right
-}
-
-#salvame{margin-left: 10px;
-
-font-size:15px ;
-background-color: green;
-border-color: green;
-
-color: white;
-
-padding:7px 15px}
-
-#botonsito{padding:7px 15px;
-border-color: white;
-color: white;
-
-font-size:15px;} 
-
-#botonsito:hover{background-color: transparent;}
-
-
-.ola5{display: flex;
-    align-items: center;
-flex-direction: column;
-font-size: small;
-margin-top: -2.125em;
-}
-
-
-.primo{color: black;
-font-size: 35px;
-font-weight: 500;
-margin-top: -8px;
-}
-
-#yopuedo{margin-left: 17px;
-}
-#comoestas{margin-right: 5%;
-margin-left: 5%;}
-
-#comoestas2{margin-left:80px auto;}
-#comoestas4{margin-right: 80px auto;}
-
-div#body{border-top:black;
-right: 0px;
-min-height: 450px;
-background-color:white;
-border-radius: 5px;}
-
-
-
-div#texto-contenedor{width: 50.5%;
-height: 450px;
-background-color:#212F3D;
-float: right;
-border-color: green;
-}
-
-div#imagen-contenedor{width:49.48%;
-min-height: 450px;
-background-color: green;
-float: left;
-border-color: white;}
-p#texto-contenedor{
-margin: 20px;
-margin-top: 20px;
-color:white;}
-
-img#imagen-contenedor{height: 450px;
-width: 100%;}
-h4#texto-contenedor{margin-left: 20px;
-color: white;
-margin: 20px;
-}
-#btnkul{background-color: transparent;
-border-radius: 5px;
-margin-left: 20px;
-border-top-width:thin;
-border-color: white;
-color: white;
-}
-
-#botonreal{width: 100%;
-
-color: white;
-background-color:#77DD44;
-pointer-events: none;
-border-color: #77DD44;
-height: 40px;
-font-size:19px;
-margin-top: 20px;
-}
-
-
-
-.contenedor{
-background: black;}
-
+    
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
@@ -158,7 +9,7 @@ background: black;}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -178,7 +29,7 @@ background: black;}
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
  <ul class="navbar-nav ml-auto" >
      <li>
-         <a class="nav-link" id="ola">La conferencia</a>
+         <a class="nav-link"  id="texto">La conferencia</a>
          </li>
     <li>
         <a class="nav-link"> Los oradores</a>
@@ -191,7 +42,7 @@ background: black;}
         <a class="nav-link"> conviertete en orador</a>
     </li>
     <li>
-        <a class="nav-link" id="jer">Comprar tickets</a>
+        <a class="nav-link" id="jer" href="pagina2.html" target="_blank">Comprar tickets</a>
     </li>
  </ul>
 </div>
@@ -200,45 +51,47 @@ background: black;}
     <br>
     <br>
     
-   
- <div class="container" style="margin-top:20vh;"  >
-    <div class="container" >
-        <h2 class="text-xl-right" style="color:white;">Conf BsAs</h2>
-</div>
-<div class="container" >
-        <p class="text-xl-right d-none d-md-block" style="color: white;width: 50%;float: right; "  >Bs As llega por primera vez a Argentina. Un evento para
-          compartir con 
-        nuestra comunidad el conocimiento y experiencia de los expertos que
-         están creando el futuro de internet. Ven 
-            a conocer a miembros del evento, a otros estudiantes
-                de Codo a Codo y los oradores de 
-                primer nivel que tenemos para ti. Te 
-                    esperamos!
+<!--inicio texto de CONF BS AS-->
+<div class="container-fluid-ban">
+    <div id="contenido">
+      <h1 class="text-xl-right">Conf BsAs</h1>
+      <p class="text-xl-left col-sm-6"  >
+        Bs As llega por primera vez a Argentina. Un nuevo evento para
+        compartir con nuestra comunidad el conocimiento y experiencia de los
+        expertos que están creando el futuro de internet. Ven a conocer a
+        miembros del evento, a otros estudiantes de Codo a Codo y oradores de
+        primer nivel que tenemos para ti. Te esperamos!
+      </p>
+
+    
     </div>
-<br>
-</div>
+  </div>
+
+
    
 
-<div class="container text-xl-right " id="quehay">
-    <button type="button" class="btn btn-outline-primary btn-lg" id="botonsito">Quiero ser orador</button>
-    <button type="button" class="btn btn-outline-primary btn-lg" id="salvame">Comprar tickets</button>
+<div class="container-fluid-ban text-xl-right " >
+    <button type="button" class="btn btn-outline-primary btn-lg " id="boton">Quiero ser orador</button>
+    <a class="bt" href="pagina2.html" target="_blank"><button type="button" class="btn btn-outline-primary btn-lg" id="botontickets">Comprar tickets</button></a>
 </div>
    
 </div>
    </main>
+     <!--fin texto de CONF BS AS--->
+   
 <br>
 <br>
-
-<p class="ola5">CONOCE A LOS  <span class="primo"> ORADORES</span></p>
+<!-- Comienzo cards -->
+<p class="texto2">CONOCE A LOS  <span class="titulo2"> ORADORES</span></p>
 
 <div class="container">
 
 
-<div class="card-deck" id="comoestas">
-    <div class="card bg-light" id="comoestas2">
+<div class="card-deck" id="cards">
+    <div class="card bg-light" id="subtexto">
         <img  class="card-img-top"src="steve.jpg" style="height: 300px;" >
         <br>
-        <div class="d-inline" id="yopuedo">
+        <div class="d-inline" id="coments">
             <span class="badge badge-warning">Javascript</span>
             <span class="badge badge-info">React</span>
 
@@ -256,7 +109,7 @@ background: black;}
     <div class="card bg-light" id="comoestas3">
         <img class="card-img-top" src="bill.jpg" style="height: 300px;">
         <br>
-        <div class="d-inline" id="yopuedo">
+        <div class="d-inline" id="coments">
             <span class="badge badge-warning">Javascript</span>
             <span class="badge badge-info">React</span>
 
@@ -269,10 +122,10 @@ background: black;}
             incidunt? Ullam nobis beatae,corporis facilis veniam magni ratione!</p>
       </div>
     </div>
-    <div class="card bg-light" id="comoestas4">
+    <div class="card bg-light" id="cartaAda">
         <img class="card-img-top" src="ada.jpeg" style="height: 300px;">
         <br>
-        <div class="d-inline" id="yopuedo">
+        <div class="d-inline" id="coments">
         <span class="badge badge-secondary">Negocios</span>
         <span class="badge badge-danger">Startups</span>
         </div>
@@ -287,8 +140,9 @@ background: black;}
   
     </div>
   </div>
+  <!-- Final cards-->
   <br>
- 
+  <!-- Comienzo Honolulu-->
 <div class="conteiner-fluid"id="body">
     <div id="texto-contenedor">
         <h4 id="texto-contenedor">Bs As - Octubre</h4>
@@ -302,7 +156,7 @@ background: black;}
 </div>
 <br>
 <br>
-<p class="ola5">CONVIÉRTETE EN UN <span class="primo"> ORADOR</span></p>
+<p class="texto2">CONVIÉRTETE EN UN <span class="titulo2"> ORADOR</span></p>
 <p class="text-xl-center" style="margin-top: -20px;">Anótate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
 <form>
     <div class="container" style="width: 50%;">
@@ -319,9 +173,10 @@ background: black;}
     <textarea name="comentarios" class="form-control" rows="3" cols="40" placeholder="Sobre que quieres hablar?" style="width: 100%;font-size: 20px;"></textarea>
     <small class="form-text text-muted" style="font-size: 15px;">Recuerda incluir un titulo para tu charla</small>
    
-    <button class="btn btn-outline-primary" type="submit" id="botonreal">Enviar</button>
+    <button class="btn btn-outline-primary" type="submit" id="botonEnviar">Enviar</button>
 
 </div>
+<!-- Final Honolulu-->
 <br>
 
 <!-- Footer -->
